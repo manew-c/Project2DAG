@@ -5,7 +5,7 @@ from airflow import DAG
 # ไว้ใช้bash
 from airflow.operators.bash_operator import BashOperator
 # ไว้กำหนดวันเวลา
-from airflow.utils.dates import days_ago
+from airflow.utils.dates import days_ago 
 
 #definine DAG arguments
 default_args = {
