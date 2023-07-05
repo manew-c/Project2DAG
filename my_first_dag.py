@@ -7,7 +7,7 @@ from airflow.operators.bash_operator import BashOperator
 # ไว้กำหนดวันเวลา
 from airflow.utils.dates import days_ago 
 
-#definine DAG arguments
+#definine DAG arguments.
 default_args = {
     'owner': 'manew001',
     'start_date': days_ago(0),
