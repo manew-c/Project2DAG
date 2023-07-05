@@ -32,7 +32,26 @@
 
 airflow dags list|grep "my-first-dag"
 
+![checkdagUP](https://github.com/manew-c/Project2DAG/assets/113186479/b7cc1599-fef5-4150-aba4-787a33f2f8a2)
+
 10.เช็คดูว่าในdagเรามีtaskอะไรบ้าง
 
 airflow tasks list my-first-dag
+
+11.ไปดูใน apache airflow
+
+จะเห็นdagที่เราอัพ
+![checkinairflow](https://github.com/manew-c/Project2DAG/assets/113186479/18467231-58dc-4054-8dee-6ed12747e7cd)
+
+ลองrun ถ้าขึ้นเขียวเข้มแสดงว่าsuccess
+![rundag](https://github.com/manew-c/Project2DAG/assets/113186479/02a60354-a074-4713-8c30-46cc59710851)
+
+task pipeline
+![graphpipeline](https://github.com/manew-c/Project2DAG/assets/113186479/305facf9-b9ee-430c-8048-14b09863f2bc)
+
+output ที่ได้
+
+
+
+
 
