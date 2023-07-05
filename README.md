@@ -1,4 +1,7 @@
 ﻿# Project2DAG
+
+ทำการเขียนDAGโดยpythonและbashเพื่อแปลงไฟล์txtเป็นcsv
+ 
  เรามีfile passwd.txt มีเนื้อหาข้างในดังนี้
  
  ![pass](https://github.com/manew-c/Project2DAG/assets/113186479/c189f802-b011-473f-95da-14208c7d1ae5)
