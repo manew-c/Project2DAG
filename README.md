@@ -52,7 +52,9 @@ airflow dags list|grep "my-first-dag"
 task pipeline
 ![graphpipeline](https://github.com/manew-c/Project2DAG/assets/113186479/305facf9-b9ee-430c-8048-14b09863f2bc)
 
-output ที่ได้
+output ที่ได้หลัง run
+![output](https://github.com/manew-c/Project2DAG/assets/113186479/9ef2c818-2d81-4ff3-b810-89bd9567f66c)
+
 
 
 
