@@ -26,7 +26,7 @@ dag = DAG(
     schedule_interval=timedelta(days=1),
 )
 
-# define the first task
+# define the first task มีdelimiterเป็น":" ตัดเอาcolumn 136 
 extract = BashOperator(
     task_id='extract',
     bash_command='cut -d":" -f1,3,6 /etc/passwd > /home/project/airflow/dags/extracted-data.txt',
