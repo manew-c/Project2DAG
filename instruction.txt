@@ -1,0 +1,23 @@
+copy นอกprojectเข้า folder dag
+1
+cp my_first_dag.py $AIRFLOW_HOME/dags
+
+
+Run the command below to list out all the existing DAGs.
+
+1
+airflow dags list
+Copied!
+Verify that my-first-dag is a part of the output.
+
+1
+airflow dags list|grep "my-first-dag"
+Copied!
+You should see your DAG name in the output.
+
+Run the command below to list out all the tasks in my-first-dag.
+
+1
+airflow tasks list my-first-dag
+Copied!
+You should see 2 tasks in the output.
